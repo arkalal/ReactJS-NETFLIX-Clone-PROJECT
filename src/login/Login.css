@@ -1,14 +1,85 @@
 .login{
     position: relative;
-    height: 100%;
+    height: 100vh;
     background: url('https://media-assets-05.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-10557-netflixa--default--1280.jpg') center no-repeat;
     background-size: cover;
 }
 
 .loginHeader img{
     object-fit: contain;
-    width: 100px;
+    width: 150px;
     position: fixed;
     top: 0;
     left: 10px;
+}
+
+.loginButton{
+    background-color: #fc0a0a;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.loginBody{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.loginBody h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.loginBody h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.loginBody h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm input{
+    width: 300px;
+    height: 45px;
+    padding: 0 15px;
+}
+
+.loginForm button{
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fc0a0a;
+    color: white;
+    cursor: pointer;
+}
+
+.loginGradient{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
 }
