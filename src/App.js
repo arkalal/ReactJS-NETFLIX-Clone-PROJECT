@@ -1,8 +1,9 @@
 import React from 'react';
+import Login from './login/Login';
 
 const App = () => {
     return <div>
-        <h2>Netflix Clone 🚀</h2>
+        <Login></Login>
     </div>;
 };
 
