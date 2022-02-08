@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Banner.css'
+import axios from '../api/getApi'
+import myRequests from '../api/request';
 
 const Banner = () => {
-    return <div className='banner'>
+
+    const [Movie, setMovie] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const request = await axios.get(myRequests.fetchNetflixOriginals)
+
+            console.log(request.data.results[Math.floor(Math.random() * request.data.results.length - 1)]);
+
+            setMovie(request.data.results[Math.floor(Math.random() * request.data.results.length - 1)])
+        }
+
+        fetchData()
+    }, [])
+
+    return <div className='banner' style={{ backgroundImage: `url('https://image.tmdb.org/t/p/original/${Movie?.poster_path}')` }}>
         <div className="bannerContent">
             <h1 className="bannerTitle">
-                Movie Name
+                {Movie?.name}
             </h1>
 
             <div className="bannerButtons">
@@ -14,9 +31,11 @@ const Banner = () => {
             </div>
 
             <div className="bannerDescription">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa minus, inventore tempore sit eius deleniti?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, quam!</p>
+                <p> {Movie?.overview} </p>
             </div>
         </div>
+
+        <div className="bannerFade"></div>
     </div>;
 };
 
