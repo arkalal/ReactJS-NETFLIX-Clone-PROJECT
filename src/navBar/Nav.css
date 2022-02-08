@@ -8,10 +8,16 @@
     transition: all .5s ease-in 0s;
 }
 
-.navLogo, .navUser{
-    width: 80px;
+.navLogo{
+    width: 120px;
     object-fit: contain;
     cursor: pointer;
+}
+
+.navUser{
+    object-fit: contain;
+    cursor: pointer;
+    width: 40px;
 }
 
 .navContent{
@@ -22,4 +28,5 @@
 
 .navBlack{
     background-color: #000;
+    height: 100px;
 }

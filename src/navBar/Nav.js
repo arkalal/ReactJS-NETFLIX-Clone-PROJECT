@@ -29,7 +29,7 @@ const Nav = () => {
         <div className="navContent">
             <img className='navLogo' src="https://www.teahub.io/photos/full/21-212834_netflix-logo-png-image-in-high-definition-netflix.png" alt="" />
 
-            <img className='navUser' onClick={logMeOut} src="https://w1.pngwing.com/pngs/743/500/png-transparent-circle-silhouette-logo-user-user-profile-green-facial-expression-nose-cartoon.png" alt="" />
+            <img className='navUser' onClick={logMeOut} src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="" />
         </div>
     </div>;
 };
