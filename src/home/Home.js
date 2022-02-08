@@ -1,9 +1,10 @@
 import React from 'react';
+import Nav from '../navBar/Nav';
 import './Home.css'
 
 const Home = () => {
     return <div>
-        <h2>HomePage</h2>
+        <Nav></Nav>
     </div>;
 };
 
