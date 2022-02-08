@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../banner/Banner';
 import Nav from '../navBar/Nav';
 import Row from '../row/Row';
-import './Home.css'
 import myRequests from '../api/request';
 
 const Home = () => {

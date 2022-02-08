@@ -11,6 +11,10 @@
     padding: 20px;
 }
 
+.rowPoster::-webkit-scrollbar{
+    display: none;
+}
+
 .posterImage{
     max-height: 150px;
     object-fit: contain;
