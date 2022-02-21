@@ -1,3 +1,3 @@
 lets test images
 
-('./public/screenshots/Destination6.png')
+('/screenshots/Destination6.png')
