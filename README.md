@@ -1,4 +1,4 @@
-Ultimate ReactJS Netflix Clone Project 🚀
+# Ultimate ReactJS Netflix Clone Project 🚀
 
 ![HOME](/public/screenshots/homepage.png)
 
