@@ -1,3 +1,3 @@
 lets test images
 
-('/screenshots/Destination6.png')
+![TEST](/screenshots/Destination6.png)
