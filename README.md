@@ -1,3 +1,7 @@
-lets test images
+Ultimate ReactJS Netflix Clone Project 🚀
 
-![TEST](/public/screenshots/test netflix.mp4)
+![HomePage](/public/screenshots/home page.png)
+
+How to use the Web App? 
+
+1. 
